@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.3s;
+}
+body {
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+.pro {
+  margin: 20px 0px;
+  padding: 10px;
+  width: 183px;
+  transition: 0.3s;
+}
+.pro:hover {
+  color: red;
+  font-size: 20px;
+}
+.pro:active {
+  font-size: 15px;
+  color: blue;
+}
+
+.rang {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rang i {
+  color: black;
+  background-color: black;
+  transition: 0.3s;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  transition: 0.3s;
+}
+.shu {
+  overflow: hidden;
+}
+.fixed {
+  position: fixed;
+  background-color: #fff;
+  transition: 0.3s;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.alm {
+  background-color: rgb(45, 94, 59);
+  transition: 0.3s;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  transition: 0.3s;
+  height: 100px;
+  position: relative;
+}
+.rezume {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  gap: 10px;
+}
+.rezume p {
+  transition: 0.3s;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.dvd {
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+li {
+  list-style: none;
+  background-color: rgb(115, 115, 152);
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+li:hover {
+  margin-bottom: 10px;
+  border-bottom: 5px solid red;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+#malumot {
+  height: 80vh;
+  width: 100%;
+}
+.uy {
+  height: 100vh;
+  width: 100%;
+  background-image: url("http://ua.seo-engines.com/wp-content/uploads/outsource2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.lc {
+  padding: 20px;
+}
+.ism {
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+span {
+  color: red;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+span:hover {
+  color: black;
+}
+.ism h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.sahifa {
+  text-align: center;
+  padding: 100px;
+  transition: 0.3s;
+  font-size: 30px;
+}
+.box {
+  background-color: rgb(115, 115, 152);
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.ozm {
+  height: 280px;
+  width: 280px;
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.sorov {
+  width: 70%;
+  transition: 0.3s;
+}
+.ozm img {
+  height: 100%;
+  transition: 0.3s;
+  width: 100%;
+}
+.proect {
+  transition: 0.3s;
+  height: 100vh;
+  width: 100%;
+}
+.loiha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(115, 115, 152);
+  border-radius: 50px;
+  transition: 0.3s;
+  border: 10px solid rgb(115, 115, 152);
+  padding: 10px;
+  width: 100%;
+  transition: 0.3s;
+}
+#proect {
+  margin: auto;
+}
+.loiha:hover {
+  box-shadow: 0 0 20px red;
+  transition: 0.3s;
+}
+.text {
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  transition: 0.3s;
+}
+.text h1 {
+  color: red;
+  transition: 0.3s;
+}
+.text h2 {
+  color: rgb(59, 59, 59);
+  transition: 0.3s;
+}
+.rasm {
+  width: 50%;
+  overflow: hidden;
+  border-radius: 50px;
+  background-position: center;
+  transition: 0.3s;
+}
+#proect {
+  margin: 90px;
+  transition: 0.3s;
+}
+.har {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.rasm img {
+  width: 600px;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+.tel i {
+  color: green;
+  transition: 0.3s;
+}
+.insta i {
+  color: red;
+  transition: 0.3s;
+}
+.gmail i {
+  color: red;
+  transition: 0.3s;
+}
+.tele i {
+  color: blue;
+  transition: 0.3s;
+}
+.insta:hover {
+  box-shadow: 0 0 20px red;
+}
+.gmail:hover {
+  box-shadow: 0 0 20px red;
+}
+.tel:hover {
+  box-shadow: 0 0 20px green;
+}
+.tele:hover {
+  box-shadow: 0 0 20px blue;
+}
+
+#boglanish {
+  width: 100%;
+  transition: 0.3s;
+}
+#boglanish .har div {
+  background-color: rgb(115, 115, 152);
+  align-items: center;
+  height: 200px;
+  width: 220px;
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.boglanish .har div:hover i {
+  font-size: 70px;
+}
+
+#boglanish .har div i {
+  font-size: 50px;
+  transition: 0.3s;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+#boglanish .har div h1 {
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  width: 100%;
+}
+#boglanish .har div p {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  transition: 0.3s;
+  margin: 10px 0px;
+}
+#boglanish .har div a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.band {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+  align-items: center;
+}
+.band .xabar {
+  width: 500px;
+  height: 400px;
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.band .texno {
+  width: 40%;
+  transition: 0.3s;
+}
+.band .texno p {
+  margin: 20px 0;
+  transition: 0.3s;
+}
+.band .xabar img {
+  transition: 0.3s;
+  height: 100%;
+}
+img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.menu {
+  display: none;
+  background-color: rgb(115, 115, 152);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.3s;
+}
+.menu:hover {
+  margin-bottom: 10px;
+  border-bottom: 5px solid red;
+}
+
+footer {
+  background-color: rgb(115, 115, 152);
+  margin-top: 100px;
+  text-align: center;
+  transition: 0.3s;
+  padding: 70px;
+}
+a {
+  text-decoration: none;
+}
+.akk {
+  transition: 0.3s;
+  display: none;
+}
+footer p {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+#joy {
+  width: 100%;
+}
+.button {
+  background-color: rgb(115, 115, 152);
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+.xabar {
+  margin: 40px;
+}
+.button:hover {
+  padding: 15px;
+}
+.button:active {
+  padding: 10px;
+  transition: 0.3s;
+}
+.bol {
+  margin: 50px;
+}
+.p {
+  margin: 20px 0px;
+}
+.texno {
+  width: 200px;
+}
+@media only screen and (max-width: 1200px) {
+  .uy {
+    height: 80vh;
+  }
+  #boglanis {
+    margin-top: 299px;
+  }
+  .loiha {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ism {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .ism h1 {
+    width: 100%;
+  }
+  .uy {
+    text-align: center;
+    width: 100%;
+  }
+  .box {
+    flex-direction: column;
+    height: 600px;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .box .sorov {
+    width: 100%;
+  }
+  .har div {
+    width: 100%;
+  }
+  .har {
+    flex-wrap: wrap;
+  }
+  .har div {
+    margin: 10px;
+    transition: 0.3s;
+  }
+  .band {
+    flex-direction: column;
+    transition: 0.3s;
+    height: 690px;
+    text-align: center;
+    text-align: center;
+  }
+  .loiha {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+    border: 1px solid firebrick;
+  }
+
+  .rasm {
+    width: 100%;
+    transition: 0.3s;
+  }
+  .text {
+    width: 100%;
+    gap: 20px;
+  }
+  .loiha {
+    width: 100%;
+  }
+  .rasm {
+    width: 100%;
+  }
+  #joy {
+    width: 100%;
+  }
+  .md {
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .text {
+    width: 100%;
+  }
+  .texno {
+    width: 100%;
+    background-color: bisque;
+  }
+  .dvd {
+    display: none;
+  }
+  .akk {
+    display: block;
+    z-index: 100;
+    background-color: black;
+    /* height: 100vh; */
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    top: 101px;
+    transition: 0.3s;
+    position: absolute;
+    border: 10px solid red;
+    flex-direction: column;
+  }
+  .akk2 {
+    background-color: rgb(65, 64, 64);
+  }
+  .menu {
+    display: block;
+  }
+  .ol {
+    display: none;
+    z-index: 0;
+    background-color: red;
+  }
+  .sahifa {
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  #boglanish .har div {
+    width: 100%;
+  }
+  .xabar {
+    height: 50px;
+    overflow: hidden;
+  }
+  .text {
+    width: 100%;
+  }
+  .loiha {
+    width: 100%;
+  }
+  #proect {
+    width: 200px;
+    border: none;
+  }
+  .xabar img {
+    width: 100%;
+  }
+  .sahifa {
+    font-size: 16px;
+  }
+}
